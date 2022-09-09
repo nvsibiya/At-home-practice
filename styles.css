@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400');
+* {
+    box-sizing: border-box;
+    font-family: Raleway;
+    color: #777;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul {
+    margin: 0;
+}
+
+.nav li {
+    display: inline; /*moves list to 1 line*/
+}
+
+.nav a { 
+    display: inline-block; /*gives padding to top of inline elements */
+    padding: .5em;
+    color: white;
+    text-decoration: none; /*removes lines under words*/
+}
+.main-header {
+    background-color: rgba(0, 0, 0, .6);
+    background-image: url("images/Queen_header_bg.png");
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 30px;
+}
