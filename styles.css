@@ -111,3 +111,26 @@ html, body {
     width: 30px;
     height: 30px;
 }
+
+.btn {
+    text-align: center;
+    vertical-align: middle;
+    padding: 0.67em;
+    cursor: pointer;
+}
+
+.btn-header {
+    margin: .5em 15% 2em 2em;
+    color: white;
+    border: 2px solid #2d9cd8;
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 0;
+    font-size: 1.5em;
+    font-weight: lighter;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.btn-header:hover {
+    background-color: rgba(255, 255, 255, .3);
+}
