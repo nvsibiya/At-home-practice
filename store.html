@@ -3,122 +3,137 @@
     <head>
         <title>Queen | Store</title>
         <meta name="description" content="This is the description">
+        <link rel="stylesheet" href="styles.css" />
     </head>
     <body>
-        <header>
-            <nav>
+        <header class="main-header">
+            <nav class="main-nav nav">
                 <ul>
                     <li><a href="index.html">HOME</a></li>
                     <li><a href="store.html">STORE</a></li>
                     <li><a href="about.html">ABOUT</a></li>
                 </ul>
             </nav>
-            <hr>
-            <h1>Queen</h1>
+            
+            <h1 class="band-name about-band-large">Queen</h1>
         </header>
-        <section>
-            <h2>MUSIC</h2>
-            <div>
-                <div>
-                    <strong>Album 1</strong>
-                </div>
-                <img src="images/Queen-II-album-cover-820.webp">
-                <div>
-                    <span>$12.99</span>
-                    <button role="button">ADD TO CART</button>
-                </div>
-            </div>
-            <div>
-                <div>
-                    <strong>Album 2</strong>
-                </div>
-                <img src="images/Queen_A_Night_At_The_Opera.png">
-                <div>
-                    <span>$14.99</span>
-                    <button role="button">ADD TO CART</button>
+        <section class="container content-section">
+            <h2 class="section-header"> MUSIC</h2>
+            <div class="shop-items">
+            <div class="shop-item">
+            
+                    <span class="shop-item-title" >Album 1</span>
+                
+                <img class="shop-item-image" src="images/Queen-II-album-cover-820.webp">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$12.99</span>
+                    <button class="btn btn-primary shop-item-button" role="button">ADD TO CART</button>
                 </div>
             </div>
-            <div>
-                <div>
-                    <strong>Album 3</strong>
-                </div>
-                <img src="images/Queen-Hot-Space-album-cover-820.webp">
-                <div>
-                    <span>$9.99</span>
-                    <button role="button">ADD TO CART</button>
-                </div>
-            </div>
-            <div>
-                <div>
-                    <strong>Album 4</strong>
-                </div>
-                <img src="images/Queen_News_of_the_World.jpeg">
-                <div>
-                    <span>$19.99</span>
-                    <button role="button">ADD TO CART</button>
+            <div class="shop-item">
+                
+                    <span class="shop-item-title">Album 2</span>
+                
+                <img class="shop-item-image" src="images/Queen_A_Night_At_The_Opera.png">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$14.99</span>
+                    <button class="btn btn-primary shop-item-button" role="button">ADD TO CART</button>
                 </div>
             </div>
+            <div class="shop-item">
+                
+                    <span class="shop-item-title">Album 3</span>
+                
+                <img class="shop-item-image" src="images/Queen-Hot-Space-album-cover-820.webp">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$9.99</span>
+                    <button class="btn btn-primary shop-item-button" role="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                
+                    <span class="shop-item-title">Album 4</span>
+                
+                <img class="shop-item-image" src="images/Queen_News_of_the_World.jpeg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$19.99</span>
+                    <button class="btn btn-primary shop-item-button" role="button">ADD TO CART</button>
+                </div>
+            </div>
+        </div>
         </section>
-        <section>
-            <h2>MERCH</h2>
-            <div>
-                <div>
-                    <strong>T-shirt</strong>
-                </div>
-                <img src="images/Queen T-shit.jpeg">
-                <div>
-                    <span>$9.99</span>
-                    <button role="button">ADD TO CART</button>
-                </div>
-            </div>
-            <div>
-                <div>
-                    <strong>Hoodies</strong>
-                </div>
-                <img src="images/Queen_sweattop.jpeg">
-                <div>
-                    <span>$15.99</span>
-                    <button role="button">ADD TO CART</button>
+
+        <section class="container content-section">
+            <h2 class="section-header">MERCH</h2>
+            <div class="shop-items">
+            <div class="shop-item">
+                
+                    <span class="shop-item-title">T-shirt</span>
+               
+                <img class="shop-item-image" src="images/Queen T-shit.jpeg">
+                <div lass="shop-item-details">
+                    <span class="shop-item-price">$9.99</span>
+                    <button class="btn btn-primary shop-item-button" role="button">ADD TO CART</button>
                 </div>
             </div>
+            <div class="shop-item">
+               
+                    <span class="shop-item-title">Hoodies</span>
+                
+                <img class="shop-item-image" src="images/Queen_sweattop.jpeg">
+                <div lass="shop-item-details">
+                    <span class="shop-item-price">$15.99</span>
+                    <button class="btn btn-primary shop-item-button" role="button">ADD TO CART</button>
+                </div>
+            </div>
+        </div>
         </section>
-        <section>
-            <h2>CART</h2>
-            <div>
-                <strong>ITEM</strong>
-                &lt;&gt;
-                <strong>PRICE</strong>
-                &lt;&gt;
-                <strong>QUANTITY</strong>
+        <section class="container content-section">
+            <h2 class="section-header">CART</h2>
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-column">ITEM</span>
+                
+                <span class="cart-price cart-header cart-column">PRICE</span>
+                
+                <span class="cart-quantity cart-header cart-column">QUANTITY</span>
             </div>
-            <div>
-                <img src="images/Queen T-shit.jpeg" width="100" height="100">
-                <span>T-shirt</span>
-                &lt;&gt;
-                <span>$9.99</span>
-                <input type="number" value="1"> 
-                <button role="button">REMOVE</button>
+            <div class="cart-items">
+            <div class="cart-row">
+                <div class="cart-item cart-column">
+                <img class="cart-item-image" src="images/Queen T-shit.jpeg" width="100" height="100">
+                <span class="cart-item-title">T-shirt</span>
             </div>
-                <img src="images/Queen-Hot-Space-album-cover-820.webp" width="100" height="100">
-                <span>Album 3</span>
-                &lt;&gt;
-                <span>$9.99</span>
-                <input type="number" value="2"> 
-                <button role="button">REMOVE</button>
-            <div>
+                <span class="cart-price cart-column">$9.99</span>
+                <div class="cart-quantity cart-column">
+                <input class="cart-quantity-input" type="number" value="1"> 
+                <button class="btn btn-danger" role="button">REMOVE</button>
             </div>
-            <hr>
-            <div>
-                <strong>Total</strong>
-                <span>$19.98</span>
             </div>
-            <div>
-                <button role="button">PURCHASE</button>
+            <div class="cart-row">
+                <div class="cart-item cart-column">
+                <img class="cart-item-image" src="images/Queen-Hot-Space-album-cover-820.webp" width="100" height="100">
+                <span class="cart-item-title">Album 3</span>
             </div>
+            <span class="cart-price cart-column">$9.99</span>
+                <div class="cart-quantity cart-column">
+                
+                <input class="cart-quantity-input" type="number" value="2"> 
+                <button class="btn btn-danger" role="button">REMOVE</button>
+            </div>
+            </div>
+        </div>
+            <div class="cart-total">
+                <span class="cart-total-title">Total</span>
+                <span class="cart-total-price">$19.98</span>
+            </div>
+            
+                <button class="btn btn-primary btn-purchase" role="button">PURCHASE</button>
+            
         </section>
-        <footer>
-            <h3>Queen</h3>
-            <ul>
+        <footer class="main-footer ">
+            <div class="container main-footer-container">
+            <h3 class="band-name"> Queen</h3>
+            <ul class="nav footer-nav">
                 <li>
                     <a href="https:/youtube.com" target="_blank">
                         <img src="images/Youtube_Logo.jpeg" width="35" height="35">
@@ -135,6 +150,7 @@
                     </a>
                 </li>
             </ul>
-        </footer>
+        </div>
+            </footer>
     </body>
 </html>
